@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        WebGPU
+    </title>
+</head>
+
+<body>
+<hr> Hello WebGPU </hr>
+
+<script type="module">
+    if(navigator.gpu){
+        console.log('您的设备支持WebGPU');
+    }else{
+        console.error('您的设备不支持WebGPU 啥破古董');
+    }
+</script>
+</body>
+</html>
